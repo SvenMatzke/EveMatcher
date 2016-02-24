@@ -17,9 +17,9 @@ from django.conf.urls import url, include
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^eve_xml_rest/', include("RestEveXML.url")),
-    url(r'^eve_crest/', include("RestEveCrest.url")),
-    url(r'^rest/', include("Matching.url")),
-    url(r'^dev_admin/', admin.site.urls),
+    # url(r'^eve_xml_rest/', include("RestEveXML.url")),
+    # url(r'^eve_crest/', include("RestEveCrest.url")),
+    # url(r'^rest/', include("Matching.url")),
+    # url(r'^dev_admin/', admin.site.urls),
     url(r'', include("Frontend.url")),
 ]
